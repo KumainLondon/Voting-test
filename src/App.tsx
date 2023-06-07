@@ -29,7 +29,7 @@ import Footer from "./Footer";
 // `npm run deploycontract` to get deployment transaction id
 const contract_id = {
   /** The deployment transaction id */
-  txId: "0dee6fbbc676cb6ff8490f5cf78615c335f96a09f792a515a1f7c41644575426",
+  txId: "30838a57aaea601ad7f3e6421e7aee6592452971159b70d0dc31c55ddc1ff589",
   /** The output index */
   outputIndex: 0,
 };
@@ -155,7 +155,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>What's your favorite phone?</h2>
+        <h2>Who's your favorite president?</h2>
       </header>
       <TableContainer
         component={Paper}
@@ -165,8 +165,8 @@ function App() {
         <Table>
           <TableHead>
             <TableRow>
-              <TableCell align="center">iPhone</TableCell>
-              <TableCell align="center">Android</TableCell>
+              <TableCell align="center">Trump</TableCell>
+              <TableCell align="center">Biden</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -178,8 +178,8 @@ function App() {
                       height: 200,
                     }}
                     component="img"
-                    alt={"iphone"}
-                    src={`${process.env.PUBLIC_URL}/${"iphone"}.png`}
+                    alt={"Trump"}
+                    src={`${process.env.PUBLIC_URL}/${"Trump"}.jpeg`}
                   />
                 </Box>
               </TableCell>
@@ -190,8 +190,8 @@ function App() {
                       height: 200,
                     }}
                     component="img"
-                    alt={"android"}
-                    src={`${process.env.PUBLIC_URL}/${"android"}.png`}
+                    alt={"Biden"}
+                    src={`${process.env.PUBLIC_URL}/${"Biden"}.jpeg`}
                   />
                 </Box>
               </TableCell>

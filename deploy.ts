@@ -21,8 +21,8 @@ async function main() {
     await Voting.compile()
 
     const candidateNames: FixedArray<Name, typeof N> = [
-        toByteString('iPhone', true),
-        toByteString('Android', true)
+        toByteString('Trump', true),
+        toByteString('Biden', true)
     ]
 
     const instance = new Voting(
